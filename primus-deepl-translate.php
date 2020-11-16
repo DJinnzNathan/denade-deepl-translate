@@ -1,12 +1,14 @@
 <?php
 /**
- * Plugin Name: primus fremdsprachen DeepL Translator
+ * Plugin Name: DeepL String Translator
  * Plugin URI: https://denade-media.com
  * Description: Generates a DeepL Translate link 
  * Version: 0.1.5
  * Text Domain: primus-deepl-translate
  * Author: Nathan G-Michael
  * Author URI: https://denade-media.com
+ * Requires at least: 5.2
+ * Requires PHP: 7.2
  */
  
  function primus_deepl_translate($atts, $content) {
