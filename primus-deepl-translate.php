@@ -16,7 +16,7 @@
         'color' => '#ed9f2d',
         'target' => '_blank'
         ), $atts );
-        $output = '<strong><a href="' . esc_url( $a['link'] ) . esc_attr( urlencode(($a['text'] )) . '" style="font-size: larger; color: ' . esc_attr( $a['color'] ) . ';" target="' . esc_attr($a['target']) . '">' . esc_attr( $a['text'] ) . '</a></strong>';
+        $output = '<strong><a href="' . esc_url( $a['link'] ) . esc_attr( urlencode(($a['text'] )); . '" style="font-size: larger; color: ' . esc_attr( $a['color'] ) . ';" target="' . esc_attr($a['target']) . '">' . esc_attr( $a['text'] ) . '</a></strong>';
         return $output;
 }
 
