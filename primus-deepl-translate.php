@@ -3,7 +3,7 @@
  * Plugin Name: primus fremdsprachen DeepL Translator
  * Plugin URI: https://denade-media.com
  * Description: Generates a DeepL Translate link 
- * Version: 0.1
+ * Version: 0.1.1
  * Text Domain: primus-deepl-translate
  * Author: Nathan G-Michael
  * Author URI: https://denade-media.com
@@ -20,5 +20,5 @@
         return $output;
 }
 
-add_shortcode('DeepL word', 'primus_deepl_translate');
+add_shortcode('DeepL-word', 'primus_deepl_translate');
  
