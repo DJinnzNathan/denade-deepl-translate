@@ -20,5 +20,5 @@
         return $output;
 }
 
-add_shortcode('DeepL-word', 'primus_deepl_translate');
+add_shortcode('DeepL', 'primus_deepl_translate');
  
