@@ -19,10 +19,10 @@
     $a = shortcode_atts( array(
         'link' => 'https://www.deepl.com/en/translator#de/en/',
         'color' => '#ed9f2d',
-        'sl' => 'de',
-        'tl' => 'en'
+        'fromLang' => 'de',
+        'toLang' => 'en'
         ), $atts );
-        $output = '<strong><a href="https://www.deepl.com/en/translator#' . esc_attr( $sl) . '/' . esc_attr( $tl ) . '/' . esc_attr( $content ) . '" style="font-size: larger; color: ' . esc_attr( $a['color'] ) . ';" target="_blank">' . esc_attr( $content ) . " 🌐" . '</a></strong>';
+        $output = '<strong><a href="https://www.deepl.com/en/translator#' . esc_attr( $a['fromLang'] ) . '/' . esc_attr( $a['toLang'] ) . '/' . esc_attr( $content ) . '" style="font-size: larger; color: ' . esc_attr( $a['color'] ) . ';" target="_blank">' . esc_attr( $content ) . " 🌐" . '</a></strong>';
         return $output;
 }
 
@@ -35,10 +35,10 @@ function denade_google_translate($atts, $content) {
     $a = shortcode_atts( array(
         'link' => 'https://translate.google.com/?hl=en#view=home&op=translate&sl=auto&tl=en&text=',
         'color' => '#ed9f2d',
-        'sl' => 'auto',
-        'tl' => 'en'
+        'fromLang' => 'auto',
+        'toLang' => 'en'
         ), $atts );
-        $output = '<strong><a href="https://translate.google.com/?hl=en#view=home&op=translate&sl=' . esc_attr( $sl) . '&tl=e' . esc_attr( $tl ) . '&text=' . esc_attr( $content ) . '" style="font-size: larger; color: ' . esc_attr( $a['color'] ) . ';" target="_blank">' . esc_attr( $content ) . " 🌐" . '</a></strong>';
+        $output = '<strong><a href="https://translate.google.com/?hl=en#view=home&op=translate&sl=' . esc_attr( $a['fromLang']) . '&tl=' . esc_attr( $a['toLang'] ) . '&text=' . esc_attr( $content ) . '" style="font-size: larger; color: ' . esc_attr( $a['color'] ) . ';" target="_blank">' . esc_attr( $content ) . " 🌐" . '</a></strong>';
         return $output;
 }
 
@@ -51,10 +51,10 @@ function denade_yandex_translate($atts, $content) {
     $a = shortcode_atts( array(
         'link' => 'https://translate.yandex.com/?lang=de-ru&text=',
         'color' => '#ed9f2d',
-        'sl' => 'de',
-        'tl' => 'en'
+        'fromLang' => 'de',
+        'toLang' => 'en'
         ), $atts );
-        $output = '<strong><a href="https://translate.yandex.com/?lang=' . esc_attr( $sl) . '-' . esc_attr( $tl ) . '&text=' . esc_attr( $content ) . '" style="font-size: larger; color: ' . esc_attr( $a['color'] ) . ';" target="_blank">' . esc_attr( $content ) . " 🌐" . '</a></strong>';
+        $output = '<strong><a href="https://translate.yandex.com/?lang=' . esc_attr( $a['fromLang']) . '-' . esc_attr( $a['toLang'] ) . '&text=' . esc_attr( $content ) . '" style="font-size: larger; color: ' . esc_attr( $a['color'] ) . ';" target="_blank">' . esc_attr( $content ) . " 🌐" . '</a></strong>';
         return $output;
 }
 
@@ -67,10 +67,10 @@ function denade_baidu_translate($atts, $content) {
     $a = shortcode_atts( array(
         'link' => 'https://fanyi.baidu.com/#de/zh/',
         'color' => '#ed9f2d',
-        'sl' => 'de',
-        'tl' => 'en'
+        'fromLang' => 'de',
+        'toLang' => 'en'
         ), $atts );
-        $output = '<strong><a href="https://fanyi.baidu.com/#' . esc_attr( $sl) . '/' . esc_attr( $tl ) . '/' . esc_attr( $content ) . '" style="font-size: larger; color: ' . esc_attr( $a['color'] ) . ';" target="_blank">' . esc_attr( $content ) . " 🌐" . '</a></strong>';
+        $output = '<strong><a href="https://fanyi.baidu.com/#' . esc_attr( $a['fromLang']) . '/' . esc_attr( $a['toLang'] ) . '/' . esc_attr( $content ) . '" style="font-size: larger; color: ' . esc_attr( $a['color'] ) . ';" target="_blank">' . esc_attr( $content ) . " 🌐" . '</a></strong>';
         return $output;
 }
 
