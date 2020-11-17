@@ -12,10 +12,10 @@ The Shortcodes are:
 
 Shortcode | Translator service
 ------------ | -------------
-`[DeepL]` | [DeepL](https://www.deepl.com/)
-`[GTranslate]` | [Google Translate](https://translate.google.com/)
-`[Yandex]` | [Yandex Translate](https://translate.yandex.com/)
-`[Baidu]` | [Fanyi Baidu](https://fanyi.baidu.com/)
+`[DeepL] ... [/DeepL]` | [DeepL](https://www.deepl.com/)
+`[GTranslate] ... [/GTranslate]` | [Google Translate](https://translate.google.com/)
+`[Yandex] ... [/Yandex]` | [Yandex Translate](https://translate.yandex.com/)
+`[Baidu] ... [/Baidu]` | [Fanyi Baidu](https://fanyi.baidu.com/)
 
 ## Roadmap
 - [x] Add globus emoji
@@ -23,3 +23,4 @@ Shortcode | Translator service
 - [ ] Add the language code of referenced text
 - [ ] Add destination language code
 - [ ] Add a dropdown with some important languages (or all languages, as DeepL only offers a few)
+- [ ] Add a standard reference language every text is translated from
