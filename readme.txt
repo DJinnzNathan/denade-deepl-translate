@@ -1,14 +1,14 @@
-=== DeepL Link Translation ===
+=== Direct Link Translator ===
 Contributors: djinnznathan
-Tags: translate, deepl
+Tags: translate, deepl, google, yandex, baidu
 Requires at least: 5.2
 Tested up to: 5.5.2
-Stable tag: 0.1.5
+Stable tag: 0.1.6
 Requires PHP: 7.2
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.
+A simple shortcode-plugin for WordPress, that generates a link to DeepL with the translation of the string.
 
 == Description ==
 
@@ -20,13 +20,16 @@ You can add the translation tags where shortcodes work. The link is larger than 
 
 = Which languages are supported? =
 
-Theoretically all languages that DeepL offers, are supported. When fully setup, the user clicks on the link, which opens a DeepL-page. After that, the user can change the destination language. 
+Theoretically all languages that the translation services offers, are supported. When fully setup, the user clicks on the link, which opens the translation page of the service. After that, the user can change the destination language. 
 
 = Can I change the reference language? =
 
 Right now it is only possible by changing the code in the plugin. In a future release I will add the option to setup languages on a settings page or in the shortcode.
 
 == Changelog ==
+
+= 0.1.6 =
+* Added Google, Yandex and Baidu translation services
 
 = 0.1.5 =
 * Initial release of the plugin.

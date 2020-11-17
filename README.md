@@ -19,7 +19,7 @@ Shortcode | Translator service
 
 ## Roadmap
 - [x] Add globus emoji
-- [ ] Add more translation services
+- [x] Add more translation services
 - [ ] Add the language code of referenced text
 - [ ] Add destination language code
 - [ ] Add a dropdown with some important languages (or all languages, as DeepL only offers a few)
