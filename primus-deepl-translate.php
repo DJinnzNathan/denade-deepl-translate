@@ -8,8 +8,8 @@
  * Author:              Nathan G-Michael
  * Requires at least:   5.2
  * Requires PHP:        7.2
- * License:             GPL v2 or later
- * License URI:         https://www.gnu.org/licenses/gpl-2.0.html
+ * License:             GPL v3 or later
+ * License URI:         https://www.gnu.org/licenses/gpl-3.0.html
  */
  
  function primus_deepl_translate($atts, $content) {
