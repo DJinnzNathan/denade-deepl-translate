@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:         DeepL Link Translator
- * Plugin URI:          
+ * Plugin URI:          https://github.com/DJinnzNathan/denade-deepl-translate
  * Description:         Generates a DeepL Translate link 
  * Version:             0.1.5
  * Text Domain:         denade-deepl-translate
