@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:         DeepL String Translator
+ * Plugin Name:         DeepL Link Translator
  * Plugin URI:          
  * Description:         Generates a DeepL Translate link 
  * Version:             0.1.5
