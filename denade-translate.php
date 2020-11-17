@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:         Direct Link Translator
- * Plugin URI:          https://github.com/DJinnzNathan/denade-deepl-translate
+ * Plugin URI:          https://github.com/DJinnzNathan/denade-translate
  * Description:         Generates a link to the translation service 
  * Version:             0.1.6
  * Text Domain:         denade-translate
@@ -13,6 +13,8 @@
  * License URI:         https://www.gnu.org/licenses/gpl-3.0.html
  */
  
+//   DeepL Service
+
  function denade_deepl_translate($atts, $content) {
     $a = shortcode_atts( array(
         'link' => 'https://www.deepl.com/en/translator#de/en/',
