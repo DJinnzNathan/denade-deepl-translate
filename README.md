@@ -7,7 +7,7 @@ Right now it translates from German to English.
 ## Usage
 You can add the translation tags where shortcodes work. The link is larger than the surrounding text. You can add standard colors or a specific ones as hex or RGB. For example:
 ``` [DeepL color=#c53222] Das ist ein Beispiel [/DeepL] ```. The link on the page will look like this: 
-**Das ist ein Beispiel.**[DeepL](https://www.deepl.com/en/translator#de/en/Das%20ist%20ein%20Beispiel.)
+[**Das ist ein Beispiel.** 🌐](https://www.deepl.com/en/translator#de/en/Das%20ist%20ein%20Beispiel.)
 
 ## Roadmap
 - [x] Add globus emoji
