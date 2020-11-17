@@ -4,7 +4,7 @@
  * Plugin URI:          
  * Description:         Generates a DeepL Translate link 
  * Version:             0.1.5
- * Text Domain:         primus-deepl-translate
+ * Text Domain:         denade-deepl-translate
  * Author:              Nathan G-Michael
  * Requires at least:   5.2
  * Requires PHP:        7.2
@@ -12,7 +12,7 @@
  * License URI:         https://www.gnu.org/licenses/gpl-3.0.html
  */
  
- function primus_deepl_translate($atts, $content) {
+ function denade_deepl_translate($atts, $content) {
     $a = shortcode_atts( array(
         'link' => 'https://www.deepl.com/en/translator#de/en/',
         'color' => '#ed9f2d'
@@ -21,7 +21,7 @@
         return $output;
 }
 
-add_shortcode('DeepL', 'primus_deepl_translate');
+add_shortcode('DeepL', 'denade_deepl_translate');
 
 
  
