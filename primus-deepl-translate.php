@@ -1,14 +1,15 @@
 <?php
 /**
- * Plugin Name: DeepL String Translator
- * Plugin URI: https://denade-media.com
- * Description: Generates a DeepL Translate link 
- * Version: 0.1.5
- * Text Domain: primus-deepl-translate
- * Author: Nathan G-Michael
- * Author URI: https://denade-media.com
- * Requires at least: 5.2
- * Requires PHP: 7.2
+ * Plugin Name:         DeepL String Translator
+ * Plugin URI:          
+ * Description:         Generates a DeepL Translate link 
+ * Version:             0.1.5
+ * Text Domain:         primus-deepl-translate
+ * Author:              Nathan G-Michael
+ * Requires at least:   5.2
+ * Requires PHP:        7.2
+ * License:             GPL v2 or later
+ * License URI:         https://www.gnu.org/licenses/gpl-2.0.html
  */
  
  function primus_deepl_translate($atts, $content) {
