@@ -1,11 +1,12 @@
 <?php
 /**
- * Plugin Name:         DeepL Link Translator
+ * Plugin Name:         Direct Link Translator
  * Plugin URI:          https://github.com/DJinnzNathan/denade-deepl-translate
- * Description:         Generates a DeepL Translate link 
- * Version:             0.1.5
- * Text Domain:         denade-deepl-translate
- * Author:              Nathan G-Michael
+ * Description:         Generates a link to the translation service 
+ * Version:             0.1.6
+ * Text Domain:         denade-translate
+ * Author:              DeNade Media
+ * Author URL:          https://denade-media.com
  * Requires at least:   5.2
  * Requires PHP:        7.2
  * License:             GPL v3 or later
