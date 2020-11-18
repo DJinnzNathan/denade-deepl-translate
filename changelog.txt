@@ -1,7 +1,9 @@
 == Changelog ==
 
 = 0.1.6 =
+*Released: 17.10.2020
 * Added Google, Yandex and Baidu translation services
 
 = 0.1.5 =
+*Released: 16.10.2020
 * Initial release of the plugin.
