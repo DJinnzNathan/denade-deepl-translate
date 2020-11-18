@@ -3,10 +3,10 @@
  * Plugin Name:         Direct Link Translator
  * Plugin URI:          https://github.com/DJinnzNathan/denade-translate
  * Description:         Generates a link to the translation service 
- * Version:             0.1.6
+ * Version:             0.1.7
  * Text Domain:         denade-translate
  * Author:              DeNade Media
- * Author URL:          https://denade-media.com
+ * Author URI:          https://denade-media.com
  * Requires at least:   5.2
  * Requires PHP:        7.2
  * License:             GPL v3 or later
@@ -14,10 +14,8 @@
  */
  
 //   DeepL 
-
  function denade_deepl_translate($atts, $content) {
     $a = shortcode_atts( array(
-        'link' => 'https://www.deepl.com/en/translator#de/en/',
         'color' => '#ed9f2d',
         'fromLang' => 'de',
         'toLang' => 'en'
@@ -30,10 +28,8 @@ add_shortcode('DeepL', 'denade_deepl_translate');
 
 
 //   Google Translator 
-
 function denade_google_translate($atts, $content) {
     $a = shortcode_atts( array(
-        'link' => 'https://translate.google.com/?hl=en#view=home&op=translate&sl=auto&tl=en&text=',
         'color' => '#ed9f2d',
         'fromLang' => 'auto',
         'toLang' => 'en'
@@ -46,10 +42,8 @@ add_shortcode('GTranslate', 'denade_google_translate');
 
 
 //   Yandex Translate 
-
 function denade_yandex_translate($atts, $content) {
     $a = shortcode_atts( array(
-        'link' => 'https://translate.yandex.com/?lang=de-ru&text=',
         'color' => '#ed9f2d',
         'fromLang' => 'de',
         'toLang' => 'en'
@@ -62,10 +56,8 @@ add_shortcode('Yandex', 'denade_yandex_translate');
 
 
 //   Baidu Translator 
-
 function denade_baidu_translate($atts, $content) {
     $a = shortcode_atts( array(
-        'link' => 'https://fanyi.baidu.com/#de/zh/',
         'color' => '#ed9f2d',
         'fromLang' => 'de',
         'toLang' => 'en'

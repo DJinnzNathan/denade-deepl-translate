@@ -16,6 +16,13 @@ This plugin is my first project as I needed it for my work. For building an onli
 
 You can add the translation tags where shortcodes work. The link is larger than the surrounding text. You can add standard colors or a specific ones as hex or RGB.
 
+== Installation ==
+
+ - Go to Plugins - Add New.
+ - Search for Direct Link Translator.
+ - Select the plugin from DeNade Media.
+ - Click on Install Now button then activate it.
+
 == Frequently Asked Questions ==
 
 = Which languages are supported? =
@@ -24,12 +31,30 @@ Theoretically all languages that the translation services offers, are supported.
 
 = Can I change the reference language? =
 
-Right now it is only possible by changing the code in the plugin. In a future release I will add the option to setup languages on a settings page or in the shortcode.
+Yes, you can add the parameter **fromLang**.
+
+= What are the standard languages used when not adding parameters? =
+
+The reference language is **German** and the translation is set to **English**.
+
+== Legal Notices ==
+
+This plugin uses third party services by offering a direct link to their website. I am not responsible for any errors happening on their website and can not guarantee the plugin to work at all times.
+
+I am not associated with any of these services. The used services are listed below:
+
+= DeepL =
+[DeepL](https://deepl.com) is an online translator service. On their website, you can find the [Terms and Conditions](https://www.deepl.com/pro-license#free) and their [Privacy Policy](https://www.deepl.com/privacy/).
+= Google Translate =
+[Google Translate](https://deepl.com) is an online translator service from Alphabet Inc.. On their website, you can find the [Terms and Conditions and Policies](https://policies.google.com/).
+= Yandex.Translate =
+[Yandex.Translate](https://deepl.com) is an online translator service offered by YANDEX LLC. On their website, you can find the [Terms of Use](https://yandex.com/legal/translate_termsofuse/).
+= Fanyi Baidu =
+[Fanyi Baidu](https://deepl.com) is an online translator service offered by the chinese search engine Baidu.com. On their website, you can find the [Terms and Conditions](http://www.baidu.com/duty/).
 
 == Changelog ==
 
-= 0.1.6 =
-* Added Google, Yandex and Baidu translation services
-
-= 0.1.5 =
-* Initial release of the plugin.
+= 0.1.7 =
+*Released: 18.10.2020
+* Added legal notices for WordPress 
+* Updated Readme
