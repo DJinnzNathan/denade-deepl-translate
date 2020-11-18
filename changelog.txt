@@ -1,0 +1,7 @@
+== Changelog ==
+
+= 0.1.6 =
+* Added Google, Yandex and Baidu translation services
+
+= 0.1.5 =
+* Initial release of the plugin.
