@@ -1,4 +1,4 @@
-# Direct Link Translator Plugin
+# Direct Link Translator WordPress Plugin
 
 ## Description
 This plugin is my first project as I needed it for my work. For building an online language learning system, I needed a quick way to let the users directly translate specific words or sentences on translation services within a lection. 
