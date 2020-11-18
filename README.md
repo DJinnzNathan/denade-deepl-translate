@@ -24,7 +24,7 @@ You can also set specific parameters, that differs from the standard setup:
 - With the color parameter you can set up your own colors (text or Hex-Color-Code)
 
 ## Roadmap
-- [x] Add globus emoji
+- [x] Add globus emoji behind the string
 - [x] Add more translation services
 - [X] Add the language code of referenced text
 - [X] Add destination language code
