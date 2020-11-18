@@ -30,3 +30,18 @@ You can also set specific parameters, that differs from the standard setup:
 - [X] Add destination language code
 - [ ] Add a dropdown with some important languages (or all languages, as DeepL only offers a few)
 - [ ] Add a standard reference language every text is translated from
+
+## Legal Notices
+
+This plugin uses third party services by offering a direct link to their website. I am not responsible for any errors happening on their website and can not guarantee the plugin to work at all times.
+
+I am not associated with any of these services. The used services are listed below:
+
+### DeepL
+[DeepL](https://deepl.com) is an online translator service. On their website, you can find the [Terms and Conditions](https://www.deepl.com/pro-license#free) and their [Privacy Policy](https://www.deepl.com/privacy/).
+### Google Translate
+[Google Translate](https://deepl.com) is an online translator service from Alphabet Inc.. On their website, you can find the [Terms and Conditions and Policies](https://policies.google.com/).
+### Yandex.Translate
+[Yandex.Translate](https://deepl.com) is an online translator service offered by YANDEX LLC. On their website, you can find the [Terms of Use](https://yandex.com/legal/translate_termsofuse/).
+### Fanyi Baidu
+[Fanyi Baidu](https://deepl.com) is an online translator service offered by the chinese search engine Baidu.com. On their website, you can find the [Terms and Conditions](http://www.baidu.com/duty/).
