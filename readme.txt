@@ -44,13 +44,13 @@ This plugin uses third party services by offering a direct link to their website
 I am not associated with any of these services. The used services are listed below:
 
 = DeepL =
-[DeepL](https://deepl.com) is an online translator service. On their website, you can find the [Terms and Conditions](https://www.deepl.com/pro-license#free) and their [Privacy Policy](https://www.deepl.com/privacy/).
+[DeepL](https://deepl.com) is an online translator service. On their website, you can find their [Terms and Conditions](https://www.deepl.com/pro-license#free) and their [Privacy Policy](https://www.deepl.com/privacy/).
 = Google Translate =
-[Google Translate](https://deepl.com) is an online translator service from Alphabet Inc.. On their website, you can find the [Terms and Conditions and Policies](https://policies.google.com/).
+[Google Translate](https://translate.google.com/) is an online translator service from Alphabet Inc.. On their website, you can find their [Terms and Conditions and Policies](https://policies.google.com/).
 = Yandex.Translate =
-[Yandex.Translate](https://deepl.com) is an online translator service offered by YANDEX LLC. On their website, you can find the [Terms of Use](https://yandex.com/legal/translate_termsofuse/).
+[Yandex.Translate](https://translate.yandex.com/) is an online translator service offered by YANDEX LLC. On their website, you can find their [Terms of Use](https://yandex.com/legal/translate_termsofuse/).
 = Fanyi Baidu =
-[Fanyi Baidu](https://deepl.com) is an online translator service offered by the chinese search engine Baidu.com. On their website, you can find the [Terms and Conditions](http://www.baidu.com/duty/).
+[Fanyi Baidu](https://fanyi.baidu.com/) is an online translator service offered by the chinese search engine Baidu.com. On their website, you can find their [Terms and Conditions](http://www.baidu.com/duty/).
 
 == Changelog ==
 
