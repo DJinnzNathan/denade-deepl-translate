@@ -34,7 +34,7 @@ function denade_google_translate($atts, $content) {
         'fromLang' => 'auto',
         'toLang' => 'en'
         ), $atts );
-        $output = '<strong><a href="https://translate.google.com/?hl=en#view=home&op=translate&sl=' . esc_attr( $a['fromLang']) . '&tl=' . esc_attr( $a['toLang'] ) . '&text=' . esc_attr( $content ) . '" style="font-size: larger; color: ' . esc_attr( $a['color'] ) . ';" target="_blank">' . esc_attr( $content ) . " 🌐" . '</a></strong>';
+        $output = '<strong><a href="https://translate.google.com/?hl=en#view=home&op=translate&sl=' . esc_attr( $a['fromLang']) . '&tl=' . esc_attr( $a['toLang'] ) . '&text=' . esc_attr( $content ) . '" style="font-size: larger; color: ' . esc_attr( $a['color'] ) . ';" target="_blank" title="' . _e( 'Translate with Google Translator', 'denade-translate' ) . '>' . esc_attr( $content ) . " 🌐" . '</a></strong>';
         return $output;
 }
 
@@ -48,7 +48,7 @@ function denade_yandex_translate($atts, $content) {
         'fromLang' => 'de',
         'toLang' => 'en'
         ), $atts );
-        $output = '<strong><a href="https://translate.yandex.com/?lang=' . esc_attr( $a['fromLang']) . '-' . esc_attr( $a['toLang'] ) . '&text=' . esc_attr( $content ) . '" style="font-size: larger; color: ' . esc_attr( $a['color'] ) . ';" target="_blank">' . esc_attr( $content ) . " 🌐" . '</a></strong>';
+        $output = '<strong><a href="https://translate.yandex.com/?lang=' . esc_attr( $a['fromLang']) . '-' . esc_attr( $a['toLang'] ) . '&text=' . esc_attr( $content ) . '" style="font-size: larger; color: ' . esc_attr( $a['color'] ) . ';" target="_blank" title="' . _e( 'Translate with Yandex.Translate', 'denade-translate' ) . '>' . esc_attr( $content ) . " 🌐" . '</a></strong>';
         return $output;
 }
 
@@ -62,7 +62,7 @@ function denade_baidu_translate($atts, $content) {
         'fromLang' => 'de',
         'toLang' => 'en'
         ), $atts );
-        $output = '<strong><a href="https://fanyi.baidu.com/#' . esc_attr( $a['fromLang']) . '/' . esc_attr( $a['toLang'] ) . '/' . esc_attr( $content ) . '" style="font-size: larger; color: ' . esc_attr( $a['color'] ) . ';" target="_blank">' . esc_attr( $content ) . " 🌐" . '</a></strong>';
+        $output = '<strong><a href="https://fanyi.baidu.com/#' . esc_attr( $a['fromLang']) . '/' . esc_attr( $a['toLang'] ) . '/' . esc_attr( $content ) . '" style="font-size: larger; color: ' . esc_attr( $a['color'] ) . ';" target="_blank" title="' . _e( 'Translate with Baidu', 'denade-translate' ) . '>' . esc_attr( $content ) . " 🌐" . '</a></strong>';
         return $output;
 }
 
