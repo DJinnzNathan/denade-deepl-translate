@@ -3,7 +3,7 @@
  * Plugin Name:         Direct Link Translator
  * Plugin URI:          https://github.com/DJinnzNathan/denade-translate
  * Description:         Generates a link to the translation service 
- * Version:             0.1.7
+ * Version:             0.1.8-beta
  * Text Domain:         denade-translate
  * Author:              DeNade Media
  * Author URI:          https://denade-media.com
@@ -20,7 +20,7 @@
         'fromLang' => 'de',
         'toLang' => 'en'
         ), $atts );
-        $output = '<strong><a href="https://www.deepl.com/en/translator#' . esc_attr( $a['fromLang'] ) . '/' . esc_attr( $a['toLang'] ) . '/' . esc_attr( $content ) . '" style="font-size: larger; color: ' . esc_attr( $a['color'] ) . ';" target="_blank">' . esc_attr( $content ) . " 🌐" . '</a></strong>';
+        $output = '<strong><a href="https://www.deepl.com/en/translator#' . esc_attr( $a['fromLang'] ) . '/' . esc_attr( $a['toLang'] ) . '/' . esc_attr( $content ) . '" style="font-size: larger; color: ' . esc_attr( $a['color'] ) . ';" target="_blank" title="' . _e( 'Translate with DeepL', 'denade-translate' ) . '">' . esc_attr( $content ) . " 🌐" . '</a></strong>';
         return $output;
 }
 

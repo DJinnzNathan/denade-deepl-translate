@@ -54,7 +54,6 @@ I am not associated with any of these services. The used services are listed bel
 
 == Changelog ==
 
-= 0.1.7 =
-*Released: 18.10.2020
-* Added legal notices for WordPress 
-* Updated Readme
+= 0.1.8-beta =
+*Released: 20.10.2020
+* Add translatable link name on hover with used service
