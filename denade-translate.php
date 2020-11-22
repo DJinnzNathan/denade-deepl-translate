@@ -3,7 +3,7 @@
  * Plugin Name:         Direct Link Translator
  * Plugin URI:          https://github.com/DJinnzNathan/denade-translate
  * Description:         Generates a link to the translation service 
- * Version:             0.1.8-beta
+ * Version:             0.1.8
  * Text Domain:         denade-translate
  * Author:              DeNade Media
  * Author URI:          https://denade-media.com
