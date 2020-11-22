@@ -54,6 +54,6 @@ I am not associated with any of these services. The used services are listed bel
 
 == Changelog ==
 
-= 0.1.8-beta =
+= 0.1.8 =
 *Released: 20.10.2020
 * Add translatable link name on hover with used service
