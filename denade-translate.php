@@ -2,8 +2,8 @@
 /**
  * Plugin Name:         Direct Link Translator
  * Plugin URI:          https://github.com/DJinnzNathan/denade-translate
- * Description:         Generates a link to the translation service 
- * Version:             0.1.7
+ * Description:         Generates a link to the translation service
+ * Version:             0.1.8.1
  * Text Domain:         denade-translate
  * Author:              DeNade Media
  * Author URI:          https://denade-media.com
@@ -20,7 +20,7 @@
         'fromLang' => 'de',
         'toLang' => 'en'
         ), $atts );
-        $output = '<strong><a href="https://www.deepl.com/en/translator#' . esc_attr( $a['fromLang'] ) . '/' . esc_attr( $a['toLang'] ) . '/' . esc_attr( $content ) . '" style="font-size: larger; color: ' . esc_attr( $a['color'] ) . ';" target="_blank">' . esc_attr( $content ) . " 🌐" . '</a></strong>';
+        $output = '<strong><a href="https://www.deepl.com/en/translator#' . esc_attr( $a['fromLang'] ) . '/' . esc_attr( $a['toLang'] ) . '/' . esc_attr( $content ) . '" style="font-size: larger; color: ' . esc_attr( $a['color'] ) . ';" target="_blank" title="Translate with DeepL">' . esc_attr( $content ) . " 🌐" . '</a></strong>';
         return $output;
 }
 
@@ -34,7 +34,7 @@ function denade_google_translate($atts, $content) {
         'fromLang' => 'auto',
         'toLang' => 'en'
         ), $atts );
-        $output = '<strong><a href="https://translate.google.com/?hl=en#view=home&op=translate&sl=' . esc_attr( $a['fromLang']) . '&tl=' . esc_attr( $a['toLang'] ) . '&text=' . esc_attr( $content ) . '" style="font-size: larger; color: ' . esc_attr( $a['color'] ) . ';" target="_blank">' . esc_attr( $content ) . " 🌐" . '</a></strong>';
+        $output = '<strong><a href="https://translate.google.com/?hl=en#view=home&op=translate&sl=' . esc_attr( $a['fromLang']) . '&tl=' . esc_attr( $a['toLang'] ) . '&text=' . esc_attr( $content ) . '" style="font-size: larger; color: ' . esc_attr( $a['color'] ) . ';" target="_blank" title="Translate with Google Translator">' . esc_attr( $content ) . " 🌐" . '</a></strong>';
         return $output;
 }
 
@@ -48,7 +48,7 @@ function denade_yandex_translate($atts, $content) {
         'fromLang' => 'de',
         'toLang' => 'en'
         ), $atts );
-        $output = '<strong><a href="https://translate.yandex.com/?lang=' . esc_attr( $a['fromLang']) . '-' . esc_attr( $a['toLang'] ) . '&text=' . esc_attr( $content ) . '" style="font-size: larger; color: ' . esc_attr( $a['color'] ) . ';" target="_blank">' . esc_attr( $content ) . " 🌐" . '</a></strong>';
+        $output = '<strong><a href="https://translate.yandex.com/?lang=' . esc_attr( $a['fromLang']) . '-' . esc_attr( $a['toLang'] ) . '&text=' . esc_attr( $content ) . '" style="font-size: larger; color: ' . esc_attr( $a['color'] ) . ';" target="_blank" title="Translate with Yandex.Translate">' . esc_attr( $content ) . " 🌐" . '</a></strong>';
         return $output;
 }
 
@@ -62,7 +62,7 @@ function denade_baidu_translate($atts, $content) {
         'fromLang' => 'de',
         'toLang' => 'en'
         ), $atts );
-        $output = '<strong><a href="https://fanyi.baidu.com/#' . esc_attr( $a['fromLang']) . '/' . esc_attr( $a['toLang'] ) . '/' . esc_attr( $content ) . '" style="font-size: larger; color: ' . esc_attr( $a['color'] ) . ';" target="_blank">' . esc_attr( $content ) . " 🌐" . '</a></strong>';
+        $output = '<strong><a href="https://fanyi.baidu.com/#' . esc_attr( $a['fromLang']) . '/' . esc_attr( $a['toLang'] ) . '/' . esc_attr( $content ) . '" style="font-size: larger; color: ' . esc_attr( $a['color'] ) . ';" target="_blank" title="Translate with Baidu">' . esc_attr( $content ) . " 🌐" . '</a></strong>';
         return $output;
 }
 
