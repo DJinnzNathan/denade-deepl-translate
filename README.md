@@ -1,3 +1,5 @@
+![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/denade-translate) ![WordPress Plugin: Required WP Version](https://img.shields.io/wordpress/plugin/wp-version/denade-translate) [![GitHub license](https://img.shields.io/github/license/DeNade-Media/denade-translate)](https://github.com/DeNade-Media/denade-translate/blob/main/LICENSE)
+
 # Direct Link Translator WordPress Plugin
 
 ## Description
@@ -35,7 +37,7 @@ You can also set specific parameters, that differs from the standard setup:
 
 This plugin uses third party services by offering a direct link to their website. I am not responsible for any errors happening on their website and can not guarantee the plugin to work at all times.
 
-I am not associated with any of these services. The used services are listed below:
+I am not associated with any of these services. The services in use are listed below:
 
 ### DeepL
 [DeepL](https://deepl.com) is an online translator service. On their website, you can find their [Terms and Conditions](https://www.deepl.com/pro-license#free) and their [Privacy Policy](https://www.deepl.com/privacy/).
